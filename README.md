@@ -1,3 +1,3 @@
-# Week 3 CRA Tool
+# Week 1
 
-This lab introduces the create-react-app (CRA) tool. While Storybook is a tool for developing individual components, CRA creates a complete application (app).
+By completing a set of small exercises, this lab helps you understand Javacript's basic syntax and concepts, emphasising data representation.
