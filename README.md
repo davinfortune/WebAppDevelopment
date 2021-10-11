@@ -6,4 +6,4 @@ Commands to commence:
 <br></br>
 npm install
 <br></br>
-npm run storybook
+npm start
