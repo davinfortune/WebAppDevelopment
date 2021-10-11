@@ -1,7 +1,9 @@
 # Web App Development
 
-This is the labs for the module *Web App Developement* Compiled into one repo, each branch represents a Weeks lab!!
-<br/><br/><br/><br/>
-<p align="center">
-  <img width="460" height="300" src="https://media1.giphy.com/media/dwmNhd5H7YAz6/giphy.gif?cid=ecf05e473vc2xcdxxzmsfbgzhar382ub4w7rxqytjgy1pnr3&rid=giphy.gif&ct=g">
-</p>
+In this lab, we commence the development of a SPA for Movie enthusiasts. The product will go through several iterations over the coming weeks, adding new functionality and refactoring existing code during that period. An open web API, The Movie DataBase, will be the data source for the app.
+<br/>
+Commands to commence:
+<br/>
+npm install
+<br/>
+npm run storybook
