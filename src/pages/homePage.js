@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Header from "../components/headerMovieList";
 import FilterCard from "../components/filterMoviesCard";
 import Grid from "@material-ui/core/Grid";
@@ -13,7 +13,23 @@ const useStyles = makeStyles({
 
 const MovieListPage = (props) => {
   const classes = useStyles();
-  const movies = props.movies;
+  const [movies, setMovies] = useState([]);
+
+  useEffect(() => {
+    var id = "77885d4f621d9af0c6c5c522b1c9df9d";
+    fetch(
+      `https://api.themoviedb.org/3/discover/movie?api_key=${id}&language=en-US&include_adult=false&page=1`
+    )
+      .then((res) => res.json())
+      .then((json) => {
+        // console.log(json);
+        return json.results;
+      })
+      .then((movies) => {
+        setMovies(movies);
+      });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <Grid container className={classes.root}>
