@@ -33,3 +33,15 @@ export const getMovies = () => {
       .then((res) => res.json())
       .then((json) => json.posters);
   };
+
+  export const getMovieReviews = (id) => {
+    var key = "77885d4f621d9af0c6c5c522b1c9df9d";
+    return fetch(
+      `https://api.themoviedb.org/3/movie/${id}/reviews?api_key=${key}`
+    )
+      .then((res) => res.json())
+      .then((json) => {
+        // console.log(json.results);
+        return json.results;
+      });
+  };
