@@ -45,3 +45,15 @@ export const getMovies = () => {
         return json.results;
       });
   };
+
+  export const getMovieUpcoming = () => {
+    var key = "77885d4f621d9af0c6c5c522b1c9df9d";
+    return fetch(
+      `https://api.themoviedb.org/3/movie/upcoming?api_key=${key}`
+    )
+      .then((res) => res.json())
+      .then((json) => {
+        // console.log(json.results);
+        return json.results;
+      });
+  };
