@@ -34,9 +34,7 @@ export const getMovie = (args) => {
   export const getGenres = async () => {
     var key = "77885d4f621d9af0c6c5c522b1c9df9d";
     return fetch(
-      `https://api.themoviedb.org/3/genre/movie/list?api_key=${key}` +
-        process.env.REACT_APP_TMDB_KEY +
-        "&language=en-US"
+      `https://api.themoviedb.org/3/genre/movie/list?api_key=${key}&language=en-US`
     ).then( (response) => {
       if (!response.ok) {
         throw new Error(response.json().message);
