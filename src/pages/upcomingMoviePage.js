@@ -20,7 +20,7 @@ const UpcomingMoviePage = (props) => {
   // Redundant, but necessary to avoid app crashing.
   const playlists = movies.filter(m => m.playlists)
   localStorage.setItem('playlists', JSON.stringify(playlists))
-  const addToFavorites = (playlists) => true 
+  const addToPlaylist = (playlists) => true 
 
   return (
     <PageTemplate
