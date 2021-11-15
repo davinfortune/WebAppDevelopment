@@ -1,7 +1,11 @@
-# Web App Development
+# Week9
 
-This is the labs for the module *Web App Developement* Compiled into one repo, each branch represents a Weeks lab!!
+This lab introduces node.js as a server-side technology.
 <br/><br/><br/><br/>
-<p align="center">
-  <img width="460" height="300" src="https://media1.giphy.com/media/dwmNhd5H7YAz6/giphy.gif?cid=ecf05e473vc2xcdxxzmsfbgzhar382ub4w7rxqytjgy1pnr3&rid=giphy.gif&ct=g">
-</p>
+You will use node.js to run javaScript programs on the "server-side" which are capable of servicing HTTP requests.
+<br/><br/><br/><br/>
+You will learn how to:
+<br/><br/><br/><br/>
+-Set node up as a HTTP server.
+-Use Node's built in http module to create a simple HTTP server.
+-Node's packaging system.
