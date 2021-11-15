@@ -1,5 +1,5 @@
 import express from 'express';
-import uniqid from 'uniqid'
+import uniqid from 'uniqid';
 import { movies, movieReviews, movieDetails } from './moviesData';
 
 const router = express.Router(); 
