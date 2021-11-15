@@ -94,18 +94,8 @@ export const movieReviews = {
     "page": 1,
     "results": [
         {
-            "author": "ted",
-            "content": "In a magical land known as Kumandra....",
-            "created_at": "2021-03-01T17:10:51.977Z",
-            "id": "603d201b33a533004bd1906e",
-            "updated_at": "2021-03-07T15:46:34.342Z"
-        },
-        {
-            "author": "bob",
-            "content": "If you enjoy reading my Spoiler-Free reviews, please follow my blog ",
-            "created_at": "2021-03-01T17:13:07.315Z",
-            "id": "603d20a3e267de005151480c",
-            "updated_at": "2021-03-07T15:47:13.254Z"
+            "author": "fxwalsh",
+            "content": "test."  
         }
     ],
     "total_pages": 1,
