@@ -1,13 +1,3 @@
-# Week9
+# Week9_Express
 
-This lab introduces node.js as a server-side technology.
-<br/><br/>
-You will use node.js to run javaScript programs on the "server-side" which are capable of servicing HTTP requests.
-<br/><br/><
-You will learn how to:
-<br/><br/>
--Set node up as a HTTP server.
-<br/><br/>
--Use Node's built in http module to create a simple HTTP server.
-<br/><br/>
--Node's packaging system.
+In this lab, we'll now move to Express.js, a richer web app package and provides a nice high level approach to serving up static content. It's based around the idea of creating an Express "app" that you can easily configure. One of the configuration options allows you to specify the location of your publicly available content such as static HTML, CSS, client-side Javascript files etc.
