@@ -4,7 +4,7 @@
   "description": "This lab introduces node.js as a server-side technology.\r <br/><br/><br/><br/>\r You will use node.js to run javaScript programs on the \"server-side\" which are capable of servicing HTTP requests.\r <br/><br/><br/><br/>\r You will learn how to:\r <br/><br/><br/><br/>\r -Set node up as a HTTP server.\r -Use Node's built in http module to create a simple HTTP server.\r -Node's packaging system.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --exec babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,7 +18,12 @@
   "homepage": "https://github.com/davinfortune/WebAppDevelopment#readme",
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.1.0",
     "babel-preset-env": "^1.7.0",
+    "dotenv": "^10.0.0",
+    "eslint": "^8.2.0",
+    "eslint-plugin-react": "^7.27.0",
     "nodemon": "^2.0.15"
-  }
+  },
+  "dependencies": {}
 }
